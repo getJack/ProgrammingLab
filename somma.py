@@ -4,6 +4,7 @@ def somma(lista_numeri):
     risultato = 0
     for item in lista_numeri:
         risultato = risultato + item
-    printf('risultao: {}'.format(risultao))
+    print('risultato: {}'.format(risultato))
 
     risultato = somma(lista_numeri)
+    
